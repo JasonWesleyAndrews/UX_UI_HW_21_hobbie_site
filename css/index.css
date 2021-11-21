@@ -12,11 +12,11 @@ a:visited {
     color: #373737
 }
 a:hover {
-    color: #800020;
+    color: #325B4F;
     text-decoration: underline;
 }
 li:hover {
-    color: #800020;
+    color: #325B4F;
 }
 
 body {
@@ -25,14 +25,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, sans-serif, Spartan;
-    color: #373738 
+    color: #373738;
+    background-color: #F4F2ED;
 }
 section {
     display: flex;
     justify-content: center;   
 }
 .styledHR {
-    background-color: #800020;
+    background-color: #325B4F;
     width: 75%;
     height: 4px;
     border: none;
@@ -72,12 +73,14 @@ section {
 .relatedPageLinkContainerContainer {
     display: flex;
     justify-content: center;
+    padding: 10px 0px 10px 0px;
 }
  .relatedPageLinkContainer a {
     padding: 0px 20px
 }
 .hobbiePageContent {
     margin: 0px 16px 0px 16px;
+    
 }
 /* header styles */
 header {
@@ -124,13 +127,13 @@ nav {
 }
 .contactButton {
     border-radius: 8px ;
-    background-color: #800020;
+    background-color: #325B4F;
     color: white;
 }
 .contactButton:hover {
     box-shadow: 0px 4px 8px #CECECE;
     color: #fff;
-    background-color: #800020;
+    background-color: #325B4F;
     text-decoration: underline;
 }
 nav ul {
@@ -158,11 +161,12 @@ h2 {
     font-family: share;
 }
 h2:hover {
-    color:#800020;
+    color:#325B4F;
 }
 
 h3 {
     font-size: 22px !important;
+    padding: 10px 0px 10px 0px;
 }
 h4 {
     font-size: 30px;
@@ -208,16 +212,10 @@ li {
 .textLink {
     text-decoration: underline;
 }
-.designIcon:hover {
-    transform: scale(1.1); 
-    transition: 0.2s;
-    
-    
-}
 
 /* footer styles */
 footer {
-    background-color: #373738;
+    background-color: #325B4F;
     display: flex;
     justify-content: space-between;
     align-items: center;
